@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+.logo {
+  position: absolute;
+  width: 83.5px;
+  height: 26.58px;
+  left: 41.26px;
+  top: 32.07px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  color: #686868;
+  font-family: "Epilogue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  background: #FAFAFA;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style-type: none;
+}
+.li-1 {
+  position: absolute;
+  width: 79px;
+  height: 16px;
+  left: 187px;
+  top: 34px;
+  text-decoration: none;
+  display: flex;
+}
+.li-2 {
+  position: absolute;
+  width: 81px;
+  height: 16px;
+  left: 306px;
+  top: 34px;
+  display: flex;
+}
+.li-3 {
+  position: absolute;
+  width: 56px;
+  height: 16px;
+  left: 427px;
+  top: 34px;
+}
+.li-4 {
+  position: absolute;
+  width: 42px;
+  height: 16px;
+  left: 523px;
+  top: 34px;
 }
 
-.App-link {
-  color: #61dafb;
+a:link {
+  text-decoration: none !important;
+  color: #686868;
+}
+a:visited {
+  color: #686868;
+}
+.fa-solid{
+margin-left: 10px;
+}
+.login-group{
+  position: absolute;
+width: 182px;
+height: 42px;
+left: 1218px;
+top: 21px;
+}
+.li-5{
+  position: absolute;
+  height: 16px;
+  left: 0%;
+  right: 79.12%;
+  top: calc(50% - 16px/2);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-2{
+  position: absolute;
+left: 42.86%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+}
+.login-3{
+  box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Medium Grey */
+
+border: 1.5px solid #686868;
+border-radius: 14px;
+}
+.li-6{
+  position: absolute;
+height: 16px;
+left: 22.12%;
+right: 21.15%;
+top: calc(50% - 16px/2);
 }
