@@ -1,3 +1,9 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 .logo {
   position: absolute;
   width: 83.5px;
@@ -97,10 +103,190 @@ bottom: 0%;
 border: 1.5px solid #686868;
 border-radius: 14px;
 }
+.login-3:hover{
+  border: 1.5px solid black;
+}
 .li-6{
   position: absolute;
 height: 16px;
 left: 22.12%;
 right: 21.15%;
 top: calc(50% - 16px/2);
+}
+
+.dropdown-1{
+  display: flex;
+  box-sizing: border-box;
+  padding: 24px;
+  position: absolute;
+width: 153px;
+height: 160px;
+left: 113px;
+top: 70px;
+
+/* Pure White */
+
+background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+border-radius: 10px;
+}
+.li1{
+ display: flex;
+ justify-content: space-between;
+}
+.img1{
+  position: absolute;
+width: 14px;
+height: 16px;
+left: 24px;
+top: 24px;
+}
+
+.p1{
+  position: absolute;
+  top: 24px;
+  left: 54px;
+  margin: 0;
+
+}
+.li2{
+  display: flex;
+  justify-content: space-between;
+ }
+ .img2{
+  position: absolute;
+width: 16px;
+height: 16px;
+left: 24px;
+top: 56px;
+
+}
+.p2{
+  position: absolute;
+  top: 56px;
+  left: 54px;
+  margin: 0;
+
+}
+
+.li3{
+  display: flex;
+  justify-content: space-between;
+ }
+ .img3{
+  position: absolute;
+width: 16px;
+height: 16px;
+left: 24px;
+top: 87.92px;
+
+}
+.p3{
+  position: absolute;
+  top: 88px;
+  left: 54px;
+  margin: 0;
+
+}
+
+.li4{
+  display: flex;
+  justify-content: space-between;
+ }
+ .img4{
+  position: absolute;
+width: 16px;
+height: 16px;
+left: 24px;
+top: 120px;
+
+}
+.p4{
+  position: absolute;
+  top: 120px;
+  left: 54px;
+  margin: 0;
+
+}
+.dropdown-2{
+  
+position: absolute;
+width: 116px;
+height: 128px;
+left: 306px;
+top: 70px;
+}
+.inner{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Pure White */
+
+background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.149126);
+border-radius: 10px;
+}
+.p11{
+  position: absolute;
+height: 16px;
+left: 21.55%;
+right: 35.34%;
+top: calc(50% - 16px/2 - 32px);
+
+/* Body S */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* Medium Grey */
+
+color: #686868;
+
+}
+
+.p22{
+  position: absolute;
+height: 16px;
+left: 21.55%;
+right: 22.41%;
+top: calc(50% - 16px/2);
+
+/* Body S */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+/* Medium Grey */
+
+color: #686868;
+
+}
+.p33{
+  position: absolute;
+height: 16px;
+left: 21.55%;
+right: 51.72%;
+top: calc(50% - 16px/2 + 32px);
+
+/* Body S */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #686868;
 }

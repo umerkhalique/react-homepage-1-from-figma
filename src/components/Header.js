@@ -1,9 +1,25 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import logo from "../assets/logo.png";
-import List from "../assets/List.svg"
 import "../App.css";
 
-function Header() {
+function Header(props) {
+  const [isActive, setActive] = useState("false");
+  const [isActiveTwo, setActiveTwo] = useState("false");
+  const ToggleClass = () => {
+    setActive(!isActive);
+  };
+  const ToggleClassTwo = () => {
+    setActiveTwo(!isActiveTwo);
+  };
+
+  function enteredState() {
+    props.state(true);
+  }
+
+  function enteredStateTwo() {
+    props.stateTwo(true);
+  }
+
   return (
     <Fragment>
       <nav className="nav">
@@ -12,13 +28,25 @@ function Header() {
         </div>
         <div className="nav-group">
           <ul>
-            <li className="li-1">
+            <li
+              className="li-1"
+              onClick={() => {
+                ToggleClass();
+                enteredState();
+              }}
+            >
               <a href="#">Features</a>
-              <i class="fa-solid fa-angle-down"></i>
+              <i
+                className={
+                  isActive ? "fa-solid fa-angle-down" : "fa-solid fa-angle-up"
+                }
+              ></i>
             </li>
-            <li className="li-2">
+            <li className="li-2" onClick={() => {enteredStateTwo(); ToggleClassTwo();}}>
               <a href="#">Company</a>
-              <i class="fa-solid fa-angle-down"></i>
+              <i className={
+                  isActiveTwo ? "fa-solid fa-angle-down" : "fa-solid fa-angle-up"
+                }></i>
             </li>
             <li className="li-3">
               <a href="#">Careers</a>
