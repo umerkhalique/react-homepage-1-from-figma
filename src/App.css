@@ -3,7 +3,9 @@
   margin: 0px;
   padding: 0px;
 }
-
+.nav{
+  width: 100%;
+}
 .logo {
   position: absolute;
   width: 83.5px;
@@ -289,4 +291,48 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 color: #686868;
+}
+.img-1{
+  position: absolute;
+width: 480px;
+height: 640px;
+left: 830px;
+top: 130px;
+}
+.div-heading{
+  position: absolute;
+width: 540px;
+height: 400px;
+left: 165px;
+top: 234px;
+}
+.h1-heading{
+  position: absolute;
+width: 540px;
+height: 161px;
+left: 165px;
+top: 234px;
+
+/* Heading L */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 80px;
+/* or 100% */
+
+letter-spacing: -1.11111px;
+
+/* Black */
+
+color: #151515;
+}
+.frag{
+display: flex;
+width: 100%;
+margin: auto;}
+.container{
+  width: 100%;
+margin: auto;
 }

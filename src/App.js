@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header'
 import DropdownOne from './components/DropdownOne';
 import DropdownTwo from './components/DropdownTwo';
+import ContentBody from './components/ContentBody'
 import { useState } from 'react'
 
 
@@ -23,6 +24,7 @@ function mouseStateTwo(arg){
       <Header state={mouseState} stateTwo={mouseStateTwo} ms1={mouseEnter} ms2={mouseEnterTwo}/>
       <DropdownOne onClickDropdownOne={mouseEnter} />
       <DropdownTwo onClickDropdownTwo={mouseEnterTwo}/>
+      <ContentBody/>
     </div>
   );
 }
