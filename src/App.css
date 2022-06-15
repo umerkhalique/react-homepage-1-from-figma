@@ -3,9 +3,7 @@
   margin: 0px;
   padding: 0px;
 }
-.nav{
-  width: 100%;
-}
+
 .logo {
   position: absolute;
   width: 83.5px;
@@ -328,11 +326,107 @@ letter-spacing: -1.11111px;
 
 color: #151515;
 }
-.frag{
-display: flex;
-width: 100%;
-margin: auto;}
-.container{
-  width: 100%;
-margin: auto;
+.para{
+  position: absolute;
+width: 445px;
+height: 84px;
+left: 165px;
+top: 443px;
+
+/* Body M */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+/* Medium Grey */
+
+color: #686868;
+}
+.btn{
+  position: absolute;
+width: 163px;
+height: 56px;
+left: 165px;
+top: 578px;
+
+}
+.btn-inner{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Black */
+
+background: #151515;
+border-radius: 15px;
+color: white;
+
+
+}
+.ppp{
+  position: absolute;
+height: 28px;
+left: 19.02%;
+right: 17.18%;
+top: calc(50% - 28px/2 + 1px);
+
+/* Button */
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+text-align: center;
+letter-spacing: -0.25px;
+
+/* Almost White */
+
+color: #FAFAFA;
+
+}
+
+.images-group{
+  position: absolute;
+width: 477.63px;
+height: 35.9px;
+left: 165.38px;
+top: 742px;
+}
+.img11{
+  position: absolute;
+width: 113.14px;
+height: 20px;
+left: 165.38px;
+top: 750px;
+}
+.img22{
+  position: absolute;
+width: 73px;
+height: 35.9px;
+left: 319px;
+top: 742px;
+}
+.img33{
+  position: absolute;
+width: 89.31px;
+height: 20px;
+left: 432px;
+top: 750px;
+}
+.img44{
+  position: absolute;
+width: 82.01px;
+height: 24px;
+left: 561px;
+top: 748px;
 }
