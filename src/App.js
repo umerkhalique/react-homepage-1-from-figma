@@ -7,8 +7,8 @@ import { useState } from 'react'
 
 function App() {
 
-  const [mouseEnter, setMouseEnter] = useState('false');
-  const [mouseEnterTwo, setMouseEnterTwo] = useState('false');
+  const [mouseEnter, setMouseEnter] = useState(false);
+  const [mouseEnterTwo, setMouseEnterTwo] = useState(false);
 
 function mouseState(arg){
   setMouseEnter(arg => !arg);
