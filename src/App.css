@@ -430,3 +430,10 @@ height: 24px;
 left: 561px;
 top: 748px;
 }
+.div-under{
+  height: 128px;
+  width: 1440px;
+  position: absolute;
+  top: 770px;
+  left: 0px;
+}

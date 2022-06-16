@@ -33,6 +33,7 @@ function ContentBody() {
       <div>
         <img className="img-1" src={image} />
       </div>
+      <div className="div-under"></div>
     </Fragment>
   );
 }
